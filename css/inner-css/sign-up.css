@@ -1,0 +1,119 @@
+.main__jumbotron{
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.user-forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 125px;
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1170px;
+    margin: 0 30px;
+}
+
+.user-forms__form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.form__title{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #575153;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.form:first-child{
+    padding-right: 35px;
+}
+
+.form:nth-child(2){
+    padding-left: 35px;
+    border-left: 1px solid #eeeeee;
+}
+
+#form-field{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #989898;
+    border: 1px solid #e7e7e7;
+    line-height: 38px;
+    padding: 0 8px;
+}
+
+#form-field:focus{
+    outline: solid #01c7c7;
+}
+
+#form-checker{
+    width: 24px;
+    height: 24px;
+    background-color: rgba(51,51,51,0.0);
+    border: 1px solid #e7e7e7;
+    border-radius: 0;
+    color:#00c8c8;
+    margin-right: 15px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.form__button{
+    border: 2px solid #737373;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #515253;
+    white-space: nowrap;
+    padding: 16px 34px;
+    background-color: #ffffff;
+}
+
+.form__button:hover{
+    background-color: #00c8c8;
+    border: 2px solid #00c8c8;
+    color: white;
+    cursor: pointer; 
+}
+
+.form__text{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #8e8c8c;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+.form-text-block{
+    max-width: 221px;
+    text-align: center;
+}
+
+.form__link{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #00c8c8;
+}
+

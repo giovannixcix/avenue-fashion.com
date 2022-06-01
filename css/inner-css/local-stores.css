@@ -1,0 +1,140 @@
+.stores{
+    display: flex;
+    justify-content: center;
+}
+.stores .container{
+    max-width: 1180px;
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+}
+
+.stores__info{
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 62px;
+}
+
+.stores__title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.stores__subtitle{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -margin-bottom: 17px;
+    font-style: normal;
+}
+
+.stores__text{
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.stores__view-btn{
+    border: 1px solid;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 20px 30px;
+    width: 218px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.stores__view-btn:hover{
+    background-color: #00c8c8;
+    border-color: #00c8c8;
+    color: white;
+}
+
+.store-extra{
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: stretch;
+    column-gap: 40px;
+    -justify-content: space-between;
+    margin-bottom: 125px;
+    max-height: 530px;
+}
+
+
+.store-extra__img-block{
+    display: flex;
+    justify-content: center;
+    min-width: 67%;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    object-fit: cover;
+    align-items: stretch;
+}
+
+.store-extra__img{
+    height: 100%;
+    max-height: 530px;
+    object-fit: cover;
+    align-items: stretch;
+}
+
+.store-extra__info{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding-right: 25px;
+    -width: 33%;
+}
+
+.store-extra__contact-list{
+    margin-bottom: 40px;
+}
+
+.store-extra__contact-list a:hover{
+    color: #00c8c8;
+}
+.store-extra__contact-item{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.store-extra__contact-item i{
+    margin-right: 13px;
+}
+
+.store-extra__socials-list{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.store-extra__socials-list a:hover{
+    background-color: #00c8c8;
+}
+
+.store-extra__socials-item{
+    margin-right: 15px;
+}
+
+.store-extra__socials-link{
+    display: block;
+    background-color: #727272;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-extra__socials-list i{
+    font-size: 15px;
+    color: #ffffff;
+}
+

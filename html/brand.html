@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand - Avenue Fashion</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/inner-css/brand.css" rel="stylesheet" type="text/css">
+    <link href="../css/header.css" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" rel="stylesheet" type="text/css">
+    <link href="../css/general.css" rel="stylesheet" type="text/css">
+    <link href="../css/jumbotron.css" rel="stylesheet" type="text/css">
+    <link href="../css/icons-fonts.css" rel="stylesheet" type="text/css">
+    <!-- FA шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- САМАЯ ВЕРХНЯЯ ШАПКА -->
+        <div class="top-bar">
+            <div class="top-bar__container">
+                <div class="value top-bar__value">
+                    <span class="value__type">
+                        Currency :
+                    </span>
+                    <span class="value__name">
+                        GBP
+                        <i class="fa-solid fa-angle-down"></i>
+                    </span>
+                    <ul class="value__list">
+                        <li class="value__item">
+                            USD
+                        </li>
+                        <li class="value__item">
+                            EUR
+                        </li>
+                        <li class="value__item">
+                            RUB
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-bar__wrapper">
+                    <div class="user-menu top-bar__user-menu">
+                        <a href="../html/sign-up.html" class="user-menu__action-link">
+                            Register
+                        </a>
+                        <a href="../html/sign-up.html" class="user-menu__action-link">
+                            Sign in
+                        </a>
+                    </div>
+                    <a href="#" class="cart top-bar__cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart__value">
+                            empty
+                        </span>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-bar">
+            <!-- ГЛАВНАЯ ШАПКА (ЛОГО + МЕНЮ) -->
+            <div class="container">
+                <a href="../index.html" class="main-bar__logo logo">
+                    <span>Avenue </span>Fashion
+                </a>
+                <div class="main-bar__wrapper">
+                    <nav class="main-bar__nav-menu  nav-menu row-menu">
+                        <!-- МЕНЮ -->
+                        <ul class="row-menu__list nav-menu__list">
+                            <li class="row-menu__item nav-menu__item  mens">
+                                <a href="#" class="row-menu__link nav-menu__link">
+                                    Mens
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+
+                                <!-- ПОДМЕНЮ -->
+                                <nav class="nav-menu__sub-menu sub-menu column-menu">
+                                    <div class="sub-menu__wrapper">
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Casuals
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Jackets
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="../html/product-view.html" class="sub-menu__link column-menu__link">
+                                                    Hoodies & sweatshirts
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Polo shirts
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Sportswear
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Trousers & chinos
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    T-shirts
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Formal
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Jackets
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Shirts
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Suits
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Trousers
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="sub-menu__banner site-banner">
+                                        <div class="wrapper">
+                                            <span>Autumn sale!</span><br> Up to 50% off
+                                        </div>
+                                    </a>
+                                </nav>
+                            </li>
+                            <li class="nav-menu__item row-menu__item">
+                                <a href="#" class="nav-menu__link row-menu__link">
+                                    Womens
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li class="nav-menu__item row-menu__item">
+                                <a href="brand.html" class="nav-menu__link row-menu__link">
+                                    The brand
+                                </a>
+                            </li>
+                            <li class="nav-menu__item row-menu__item">
+                                <a href="../html/local-stores.html" class="nav-menu__link row-menu__link">
+                                    Local stores
+                                </a>
+                            </li>
+                            <li class="nav-menu__item row-menu__item lookbook-submenu">
+                                <a href="../html/lookbook.html" class="nav-menu__link row-menu__link">
+                                    Look book
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <nav class="nav-menu__sub-menu sub-menu column-menu">
+                                    <div class="sub-menu__wrapper">
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Our Lookbooks
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Latest Posts (mixed)
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Men's Lookbook
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Women's Lookbook
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Your Lookbook
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    View and Edit
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Share
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Delete
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="sub-menu__banner site-banner">
+                                        <div class="wrapper">
+                                            <span>Autumn sale!</span><br> Up to 50% off
+                                        </div>
+                                    </a>
+                                </nav>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="search-block">
+                        <input type="search" id="site-search" name="q">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="main__jumbotron jumbtron">
+            <div class="main__paranja"></div>
+        </div>
+        <div class="title-wrapper">
+            <h1 class="main__title title"> <span>The </span>Brand</h1>
+            <p class="main__subtitle subtitle">Company slogan goes here</p>
+        </div>
+
+        <section class="main__content content">
+
+            <div class="container">
+                <article class="content__article .row-article">
+                    <div class="content__img-block"><img src="../image/brand-img/brand_img_1.jpg" alt=""
+                            class="content__img">
+                    </div>
+                    <div class="wrapper row-wrapper">
+                        <h2 class="content__title">
+                            hand designed clothing
+                        </h2>
+                        <p class="content__subtitle">
+                            established in 2013, avenue fashion Sed dictum elit vel sapien luctus eras
+                        </p>
+                        <p class="content__text">
+                            Praesent feugiat malesuada tristique maecenas rhoncus diam eget quam
+                            vestibulim consectetur, id condimentum leo porttitor. Cum sociis natoque
+                            penatibus eta magnis disut parturient montes, nascetur ridiculus mus.
+                            Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh
+                            suspendisse congue metus nunc, id viverra elit loreti rhoncus quis
+                            consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.
+                        </p>
+                    </div>
+                </article>
+                <article class="content__article">
+                    <div class="content__img-block"><img src="../image/brand-img/brand_img_3.jpg" alt=""
+                            class="content__img">
+                    </div>
+                    <div class="wrapper column-wrapper">
+                        <h2 class="content__title">our values, vision and strategy</h2>
+                        <p class="content__subtitle">
+                            The above image would be a great place for an advertising video
+                        </p>
+                        <p class="content__text">
+                            Cras maximus venenatis malesuada. Nulla sagittis elit felis,
+                            ac facilisis quam ornare aliquam. Etiam cursus odio vitae dui
+                            dignissim, sed tempus lacus tincidunt et donec sapien velit,
+                            rhoncus eu nulla a, molestie tempus mi maecenas sagittis ornare.
+                            Pellentesque sapien mi, tincidunt nec magna vitae, volutpat elementum odioni lorem Aliquam
+                            tempor massa vitae augue mattis tempor id in ante ut augue erat, luctus eil.
+                        </p>
+                    </div>
+                </article>
+                <article class="content__article content__article--displaced">
+                    <div class="content__img-block"><img src="../image/brand-img/brand_img_2.jpg" alt=""
+                            class="content__img">
+                    </div>
+                    <div class="wrapper column-wrapper">
+                        <h2 class="content__title">
+                            Ethical trading
+                        </h2>
+                        <p class="content__subtitle">
+                            we oversee the working conditions of the people in the supply chain
+                        </p>
+                        <p class="content__text">
+                            Nullam dapibus consectetur neque, faucibus porttitor purus iaculis sed.
+                            Aenean eras dapibus augue, eget dignissim dui maecenas et rhoncus mim,
+                            vel semper arcu lorem
+                            Pellentesque congue justo esteir pellentesque aliquet massa eget posuere
+                            tincidunt. Cras viverra ullamcorper nunc accumsan hendrerit. A link fa-long-arrow-right
+                        </p>
+                    </div>
+                </article>
+                <div class="content__awards">
+                    <ul class="content__img-list img-list">
+                        <li class="img-list__item">
+                            <a href="" class="img-list__link">
+                                <img src="../image/brand-img/award_img_1.jpg" alt="">
+                            </a>
+                            </item>
+                        </li>
+                        <li class="img-list__item">
+                            <a href="" class="img-list__link">
+                                <img src="../image/brand-img/award_img_2.jpg" alt="">
+                            </a>
+                            </item>
+                        </li>
+                        <li class="img-list__item">
+                            <a href="" class="img-list__link">
+                                <img src="../image/brand-img/award_img_3.jpg" alt="">
+                            </a>
+                            </item>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav__menu column-menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Information
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            The brand
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Local stores
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Customer service
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Privacy & cookies
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Site map
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Why buy from us
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Shipping & returns
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Secure shopping
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Award winning
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Ethical trading
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Your account
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Sign in
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Register
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            View cart
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            View your lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Track an order
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Update information
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Lookbook
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Latest posts
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Men's lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Women's lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Lookbooks RSS feed
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            View your lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Delete your lookbook
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__contact contact">
+                    <li class="footer-nav__contact-title column-menu__title">
+                        Contact details
+                    </li>
+                    <li class="footer-nav__contact-detail column-menu__item address">
+                        Head Office: Avenue Fashion, 180-182 Regent Street, London.
+                    </li>
+                    <li class="footer-nav__contact-detail column-menu__item telephone">
+                        Telephone: 0123-456-789
+                    </li>
+                    <li class="footer-nav__contact-detail column-menu__item email">
+                        Email: support@yourwebsite.com
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-wrapper">
+                <!-- Еще подвал: Баннер + соцсети -->
+                <div class="footer-banner site-banner">
+                    <div class="wrapper">
+                        <span>Award winner </span>Fashion awards 2016
+                    </div>
+                </div>
+                <div class="footer-banner site-banner socials-banner">
+                    <ul class="footer-banner socials-list ">
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__text">
+                    © 2016 Avenue Fashion™
+                </div>
+                <div class="wrapper">
+                    <a class="footer__link" href="">Design by RobbyDesigns.com</a>
+                    <a class="footer__link" href="">Dev by Loremipsum.com</a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/e6ea0fcf00.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

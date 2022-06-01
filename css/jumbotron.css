@@ -1,0 +1,53 @@
+.main{
+    position: relative;
+}
+
+.main__jumbotron{
+    position: relative;
+    width: 100%;
+    background-image: url(../image/brand-img/brand_jumbotron.jpg);
+    background-size: cover;
+    background-position: 0 20%;
+    height: 450px;
+    margin-bottom: 24px;
+}
+
+.title-wrapper{
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main__title{
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 30px;
+}
+
+.main__title span{
+    font-weight: 700;
+}
+
+.main__subtitle{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main__paranja{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(55, 55, 55, 0.7);
+    
+}

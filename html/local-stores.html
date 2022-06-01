@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Stores - Avenue Fashion</title>
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../css/inner-css/brand.css" rel="stylesheet" type="text/css">
+    <link href="../css/header.css" rel="stylesheet" type="text/css">
+    <link href="../css/footer.css" rel="stylesheet" type="text/css">
+    <link href="../css/general.css" rel="stylesheet" type="text/css">
+    <link href="../css/jumbotron.css" rel="stylesheet" type="text/css">
+    <link href="../css/inner-css/local-stores.css" rel="stylesheet" type="text/css">
+    <link href="../css/icons-fonts.css" rel="stylesheet" type="text/css">
+    <!-- FA шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- САМАЯ ВЕРХНЯЯ ШАПКА -->
+        <div class="top-bar">
+            <div class="top-bar__container">
+                <div class="value top-bar__value">
+                    <span class="value__type">
+                        Currency :
+                    </span>
+                    <span class="value__name">
+                        GBP
+                        <i class="fa-solid fa-angle-down"></i>
+                    </span>
+                    <ul class="value__list">
+                        <li class="value__item">
+                            USD
+                        </li>
+                        <li class="value__item">
+                            EUR
+                        </li>
+                        <li class="value__item">
+                            RUB
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-bar__wrapper">
+                    <div class="user-menu top-bar__user-menu">
+                        <a href="../html/sign-up.html" class="user-menu__action-link">
+                            Register
+                        </a>
+                        <a href="../html/sign-up.html" class="user-menu__action-link">
+                            Sign in
+                        </a>
+                    </div>
+                    <a href="#" class="cart top-bar__cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart__value">
+                            empty
+                        </span>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-bar">
+            <!-- ГЛАВНАЯ ШАПКА (ЛОГО + МЕНЮ) -->
+            <div class="container">
+                <a href="../index.html" class="main-bar__logo logo">
+                    <span>Avenue </span>Fashion
+                </a>
+                <div class="main-bar__wrapper">
+                    <nav class="main-bar__nav-menu  nav-menu row-menu">
+                        <!-- МЕНЮ -->
+                        <ul class="row-menu__list nav-menu__list">
+                            <li class="row-menu__item nav-menu__item  mens">
+                                <a href="#" class="row-menu__link nav-menu__link">
+                                    Mens
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+
+                                <!-- ПОДМЕНЮ -->
+                                <nav class="nav-menu__sub-menu sub-menu column-menu">
+                                    <div class="sub-menu__wrapper">
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Casuals
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Jackets
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="../html/product-view.html" class="sub-menu__link column-menu__link">
+                                                    Hoodies & sweatshirts
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Polo shirts
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Sportswear
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Trousers & chinos
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    T-shirts
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Formal
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Jackets
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Shirts
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Suits
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Trousers
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="sub-menu__banner site-banner">
+                                        <div class="wrapper">
+                                            <span>Autumn sale!</span><br> Up to 50% off
+                                        </div>
+                                    </a>
+                                </nav>
+                            </li>
+                            <li class="nav-menu__item row-menu__item">
+                                <a href="#" class="nav-menu__link row-menu__link">
+                                    Womens
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li class="nav-menu__item row-menu__item">
+                                <a href="brand.html" class="nav-menu__link row-menu__link">
+                                    The brand
+                                </a>
+                            </li>
+                            <li class="nav-menu__item row-menu__item">
+                                <a href="../html/local-stores.html" class="nav-menu__link row-menu__link">
+                                    Local stores
+                                </a>
+                            </li>
+                            <li class="nav-menu__item row-menu__item lookbook-submenu">
+                                <a href="../html/lookbook.html" class="nav-menu__link row-menu__link">
+                                    Look book
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <nav class="nav-menu__sub-menu sub-menu column-menu">
+                                    <div class="sub-menu__wrapper">
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Our Lookbooks
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Latest Posts (mixed)
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Men's Lookbook
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Women's Lookbook
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="sub-menu__list column-menu__list">
+                                            <li class="sub-menu__list-name column-menu__list-name">
+                                                Your Lookbook
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    View and Edit
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Share
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu__item column-menu__item">
+                                                <a href="" class="sub-menu__link column-menu__link">
+                                                    Delete
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="sub-menu__banner site-banner">
+                                        <div class="wrapper">
+                                            <span>Autumn sale!</span><br> Up to 50% off
+                                        </div>
+                                    </a>
+                                </nav>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="search-block">
+                        <input type="search" id="site-search" name="q">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <div class="main__jumbotron jumbtron">
+            <div class="main__paranja"></div>
+        </div>
+        <div class="title-wrapper">
+            <h1 class="main__title title"> <span>Local </span>Stores</h1>
+            <p class="main__subtitle subtitle">Find a store near you</p>
+        </div>
+
+        <section class="stores">
+            <div class="container">
+                <article class="stores__info">
+                    <div class="wrapper">
+                        <h2 class="stores__title">
+                            London
+                        </h2>
+                        <address class="stores__subtitle stores__address">
+                            180-182 Regent Street, London, W1B 5BT
+                        </address>
+                        <p class="stores__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit
+                            massa, nec tempor odio. Fusce posuere nunc iaculis ligula
+                            viverra iaculis. Aliquam erat volutpat.
+                        </p>
+                    </div>
+                    <button class="stores__view-btn">
+                        view details
+                    </button>
+                </article>
+                <article class="stores__info">
+                    <div class="wrapper">
+                        <h2 class="stores__title">
+                            New York
+                        </h2>
+                        <address class="stores__subtitle">
+                            109 Columbus Circle, New York, NY 10023
+                        </address>
+                        <p class="stores__text">
+                            Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
+                            Aliquam egestas, sem quis condimentum venenatis, erat leo
+                            fermentum dolor, non sollicitudin massa mi eu nibh. Nullam
+                            vitae aliquam dui, non sodales nisl.
+                        </p>
+                    </div>
+                    <button class="stores__view-btn">
+                        view details
+                    </button>
+                </article>
+                <article class="stores__info">
+                    <div class="wrapper">
+                        <h2 class="stores__title">
+                            Paris
+                        </h2>
+                        <address class="stores__subtitle">
+                            2133 Rue Saint-Honoré, 75001 Paris
+                        </address>
+                        <p class="stores__text">
+                            Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus
+                            eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum
+                            ante ipsum primis in faucibus orcip luctus et ultrices posuere
+                            cubilia curae cras ligula.
+                        </p>
+                    </div>
+                    <button class="stores__view-btn">
+                        view details
+                    </button>
+                </article>
+            </div>
+        </section>
+        <div class="store-extra">
+            <div class="store-extra__img-block">
+            <img src="../image/local-stores/map_img.jpg" alt="" class="store-extra__img">
+        </div>
+            <div class="store-extra__info">
+                <h3 class="store-extra__title stores__title">
+                    London
+                </h3>
+                <address class="store-extra__subtitle stores__subtitle">
+                    180-182 Regent Street, London, W1B 5BT
+                </address>
+                <p class="store-extra__text stores__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit
+                    massa, nec tempor odio. Fusce posuere nunc iaculis ligula
+                    viverra iaculis. Aliquam erat volutpat.
+                </p>
+                <ul class="store-extra__contact-list">
+                    <li class="store-extra__contact-item">
+                        <a href="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            180-182 Regent Street, London, W1B 5BT
+                        </a>
+                    </li>
+                    <li class="store-extra__contact-item">
+                        <a href="">
+                            <i class="fa-solid fa-phone"></i>
+                            0123-456-789
+                        </a>
+                    </li>
+                    <li class="store-extra__contact-item">
+                        <a href="">
+                            <i class="fa-solid fa-link"></i>
+                            www.yourwebsite.com
+                        </a>
+                    </li>
+                    <li class="store-extra__contact-item">
+                        <a href="">
+                            <i class="fa-regular fa-envelope"></i>
+                            support@yourwebsite.com
+                        </a>
+                    </li>
+                    <li class="store-extra__contact-item">
+                        <i class="fa-regular fa-clock"></i>
+                        Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm
+                    </li>
+                </ul>
+                <ul class="store-extra__socials-list">
+                    <li class="store-extra__socials-item">
+                        <a href="" class="store-extra__socials-link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="store-extra__socials-item">
+                        <a href="" class="store-extra__socials-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="store-extra__socials-item">
+                        <a href="" class="store-extra__socials-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="store-extra__socials-item">
+                        <a href="" class="store-extra__socials-link">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav__menu column-menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Information
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            The brand
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Local stores
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Customer service
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Privacy & cookies
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Site map
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Why buy from us
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Shipping & returns
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Secure shopping
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Testimonials
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Award winning
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Ethical trading
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Your account
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Sign in
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Register
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            View cart
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            View your lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Track an order
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Update information
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__menu">
+                    <li class="footer-nav__menu-title column-menu__title">
+                        Lookbook
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Latest posts
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Men's lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Women's lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Lookbooks RSS feed
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            View your lookbook
+                        </a>
+                    </li>
+                    <li class="footer-nav__item column-menu__item">
+                        <a href="" class="footer-nav__link column-menu__link">
+                            Delete your lookbook
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-nav__contact contact">
+                    <li class="footer-nav__contact-title column-menu__title">
+                        Contact details
+                    </li>
+                    <li class="footer-nav__contact-detail column-menu__item address">
+                        Head Office: Avenue Fashion, 180-182 Regent Street, London.
+                    </li>
+                    <li class="footer-nav__contact-detail column-menu__item telephone">
+                        Telephone: 0123-456-789
+                    </li>
+                    <li class="footer-nav__contact-detail column-menu__item email">
+                        Email: support@yourwebsite.com
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-wrapper">
+                <!-- Еще подвал: Баннер + соцсети -->
+                <div class="footer-banner site-banner">
+                    <div class="wrapper">
+                        <span>Award winner </span>Fashion awards 2016
+                    </div>
+                </div>
+                <div class="footer-banner site-banner socials-banner">
+                    <ul class="footer-banner socials-list ">
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="" class="socials-link">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__text">
+                    © 2016 Avenue Fashion™
+                </div>
+                <div class="wrapper">
+                    <a class="footer__link" href="">Design by RobbyDesigns.com</a>
+                    <a class="footer__link" href="">Dev by Loremipsum.com</a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/e6ea0fcf00.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
